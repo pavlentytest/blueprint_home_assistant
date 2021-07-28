@@ -25,7 +25,7 @@ def check_weather(request, responder):
     """
     # Check to make sure API key is present, if not tell them to follow setup instructions
     try:
-        openweather_api_key = "aa1344f6147309fcd452c2fc34a5daa9"
+        openweather_api_key = "KEY"
 
     except KeyError:
         reply = "Open weather API is not setup, please register an API key at https://" \
